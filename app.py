@@ -12,6 +12,7 @@ from flask_cors import CORS  # Import CORS
 # Load environment variables
 load_dotenv()
 
+
 # Configure the GenerativeAI API key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
